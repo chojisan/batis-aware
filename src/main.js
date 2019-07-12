@@ -1,8 +1,10 @@
-import Vue from 'vue'
-import App from './App.vue'
-import router from './router'
+import Vue from "vue";
+import App from "./App.vue";
+import router from "./router";
+import Takada from "./plugins/main-kit";
 
-Vue.config.productionTip = false
+Vue.config.productionTip = false;
+Vue.use(Takada);
 
 new Vue({
   router,
