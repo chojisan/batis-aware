@@ -5,7 +5,7 @@
     expand
   >
     <router-link slot="brand" class="navbar-brand" to="/">
-      <img src="@/assets/img/logo.png">
+      <img src="@/assets/img/logo/logo.png">
     </router-link>
 
     <ul class="nav ml-auto">
