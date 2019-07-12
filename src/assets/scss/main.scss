@@ -36,3 +36,14 @@
 @import "~bootstrap/scss/carousel";
 @import "~bootstrap/scss/utilities";
 @import "~bootstrap/scss/print";
+
+// Custom Overrides
+@import "./custom/reboot";
+@import "./custom/type";
+@import "./custom/donate";
+@import "./custom/about";
+@import "./custom/whatwedo";
+@import "./custom/activities";
+@import "./custom/officers";
+@import "./custom/contact";
+@import "./custom/footer";
