@@ -1,12 +1,7 @@
-#about {
-    padding: 60px 0;
-}
-
 .timeline {
     position: relative;
     padding: 0;
     list-style: none;
-    margin-bottom: 40px;
 
     &::before {
         position: absolute;
@@ -22,7 +17,6 @@
     &>li {
         position: relative;
         min-height: 50px;
-        margin-bottom: 50px;
 
         &::after {
             display: table;

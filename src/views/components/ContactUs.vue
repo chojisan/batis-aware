@@ -1,5 +1,5 @@
 <template>
-  <section id="contact">
+  <section id="contact" class="py-5">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 col-md-12 text-center" data-aos="zoom-in">
@@ -32,7 +32,7 @@
               <i class="fab fa-map-marked-alt"></i>
               <p>
                 #54 K9th St. West kamias,
-                <br>Quezon City, Philippines
+                <br />Quezon City, Philippines
               </p>
             </div>
 
@@ -69,7 +69,7 @@
                     data-rule="minlen:4"
                     data-msg="Please enter at least 4 chars"
                     required
-                  >
+                  />
                   <div class="validation"></div>
                 </div>
                 <div class="form-group col-lg-6">
@@ -82,7 +82,7 @@
                     data-rule="email"
                     data-msg="Please enter a valid email"
                     required
-                  >
+                  />
                   <div class="validation"></div>
                 </div>
               </div>
@@ -96,7 +96,7 @@
                   data-rule="minlen:4"
                   data-msg="Please enter at least 8 chars of subject"
                   rquired
-                >
+                />
                 <div class="validation"></div>
               </div>
               <div class="form-group">

@@ -1,5 +1,5 @@
 <template>
-  <section id="what-we-do">
+  <section id="what-we-do" class="py-5">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 col-md-12 text-center" data-aos="zoom-in">
@@ -15,8 +15,8 @@
         >
           <div class="icon-box active">
             <figure class="d-flex justify-content-center">
-              <img src="@/assets/img/what-we-do/hands-gray.png" alt>
-              <img src="@/assets/img/what-we-do/hands-white.png" alt>
+              <img src="@/assets/img/what-we-do/hands-gray.png" alt />
+              <img src="@/assets/img/what-we-do/hands-white.png" alt />
             </figure>
 
             <header class="entry-header">
@@ -36,8 +36,8 @@
         >
           <div class="icon-box">
             <figure class="d-flex justify-content-center">
-              <img src="@/assets/img/what-we-do/teamwork-gray.png" alt>
-              <img src="@/assets/img/what-we-do/teamwork-white.png" alt>
+              <img src="@/assets/img/what-we-do/teamwork-gray.png" alt />
+              <img src="@/assets/img/what-we-do/teamwork-white.png" alt />
             </figure>
 
             <header class="entry-header">
@@ -57,8 +57,8 @@
         >
           <div class="icon-box">
             <figure class="d-flex justify-content-center">
-              <img src="@/assets/img/what-we-do/hands-gray.png" alt>
-              <img src="@/assets/img/what-we-do/hands-white.png" alt>
+              <img src="@/assets/img/what-we-do/hands-gray.png" alt />
+              <img src="@/assets/img/what-we-do/hands-white.png" alt />
             </figure>
 
             <header class="entry-header">
@@ -78,8 +78,8 @@
         >
           <div class="icon-box">
             <figure class="d-flex justify-content-center">
-              <img src="@/assets/img/what-we-do/charity-gray.png" alt>
-              <img src="@/assets/img/what-we-do/charity-white.png" alt>
+              <img src="@/assets/img/what-we-do/charity-gray.png" alt />
+              <img src="@/assets/img/what-we-do/charity-white.png" alt />
             </figure>
 
             <header class="entry-header">
@@ -99,8 +99,8 @@
         >
           <div class="icon-box">
             <figure class="d-flex justify-content-center">
-              <img src="@/assets/img/what-we-do/hands-gray.png" alt>
-              <img src="@/assets/img/what-we-do/hands-white.png" alt>
+              <img src="@/assets/img/what-we-do/hands-gray.png" alt />
+              <img src="@/assets/img/what-we-do/hands-white.png" alt />
             </figure>
 
             <header class="entry-header">
@@ -120,8 +120,8 @@
         >
           <div class="icon-box">
             <figure class="d-flex justify-content-center">
-              <img src="@/assets/img/what-we-do/hands-gray.png" alt>
-              <img src="@/assets/img/what-we-do/hands-white.png" alt>
+              <img src="@/assets/img/what-we-do/hands-gray.png" alt />
+              <img src="@/assets/img/what-we-do/hands-white.png" alt />
             </figure>
 
             <header class="entry-header">

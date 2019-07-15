@@ -1,5 +1,5 @@
 <template>
-  <section id="about">
+  <section id="about" class="py-5">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 col-md-12 text-center" data-aos="zoom-in">
@@ -11,10 +11,10 @@
       </div>
       <div class="row">
         <div class="col-lg-12">
-          <ul class="timeline">
-            <li>
+          <ul class="timeline mb-5">
+            <li class="mb-5">
               <div class="timeline-image" data-aos="zoom-in">
-                <img class="rounded-circle img-fluid" src="@/assets/img/logo/batis.png" alt>
+                <img class="rounded-circle img-fluid" src="@/assets/img/logo/batis.png" alt />
               </div>
               <div class="timeline-panel" data-aos="fade-right">
                 <div class="timeline-heading">
@@ -30,9 +30,9 @@
                 </div>
               </div>
             </li>
-            <li class="timeline-inverted">
+            <li class="timeline-inverted mb-5">
               <div class="timeline-image" data-aos="zoom-in">
-                <img class="rounded-circle img-fluid" src="@/assets/img/logo/aware.png" alt>
+                <img class="rounded-circle img-fluid" src="@/assets/img/logo/aware.png" alt />
               </div>
               <div class="timeline-panel" data-aos="fade-left">
                 <div class="timeline-heading">
@@ -48,9 +48,9 @@
                 </div>
               </div>
             </li>
-            <li>
+            <li class="mb-5">
               <div class="timeline-image" data-aos="zoom-in">
-                <img class="rounded-circle img-fluid" src="@/assets/img/logo/aware.png" alt>
+                <img class="rounded-circle img-fluid" src="@/assets/img/logo/aware.png" alt />
               </div>
               <div class="timeline-panel" data-aos="fade-right">
                 <div class="timeline-heading">
@@ -66,9 +66,9 @@
                 </div>
               </div>
             </li>
-            <li class="timeline-inverted">
+            <li class="timeline-inverted mb-5">
               <div class="timeline-image" data-aos="zoom-in">
-                <img class="rounded-circle img-fluid" src="@/assets/img/logo/aware.png" alt>
+                <img class="rounded-circle img-fluid" src="@/assets/img/logo/aware.png" alt />
               </div>
               <div class="timeline-panel" data-aos="fade-left">
                 <div class="timeline-heading">
@@ -84,12 +84,12 @@
                 </div>
               </div>
             </li>
-            <li class="timeline-inverted">
+            <li class="timeline-inverted mb-5">
               <div class="timeline-image" data-aos="zoom-in" s>
                 <h4>
                   Be Part
-                  <br>Of Our
-                  <br>Story!
+                  <br />Of Our
+                  <br />Story!
                 </h4>
               </div>
             </li>
@@ -117,16 +117,16 @@
           <h3 class="section-subheading text-muted">
             Shall establish a consolidated organization where members are united to
             implement its mission.
-            <br>
-            <br>Shall contribute to the economic security for its members.
-            <br>
-            <br>Shall establish a strong partnership and linkage with local and international women's organizations, similarly
+            <br />
+            <br />Shall contribute to the economic security for its members.
+            <br />
+            <br />Shall establish a strong partnership and linkage with local and international women's organizations, similarly
             tasks org., church and academic institutions, humanitarian organizations, individual and private institutions.
           </h3>
         </div>
       </div>
       <div class="row">
-        <div class="col-lg-12" data-aos="fade-up" data-aos-delay="100">
+        <div class="col-lg-12 mt-5" data-aos="fade-up" data-aos-delay="100">
           <p>
             Batis Center for Women is a non-profit orgaization that works to assist distressed Filipino women migrants and
             their families, under the roof of Batis Center is Batis AWARE (Association of Women in Action for Rights and
