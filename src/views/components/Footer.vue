@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col-lg-12 text-lg-left text-center">
           <div class="copyright">
-            &copy; 2018 Copyright
+            &copy; {{year}} Copyright
             <strong>Batis AWARE - Association of Women in Action for Rights and Empowerment</strong>.
             All Rights Reserved
           </div>
@@ -17,3 +17,14 @@
     </div>
   </footer>
 </template>
+
+<script>
+export default {
+  name: "app-footer",
+  data() {
+    return {
+      year: new Date().getFullYear()
+    };
+  }
+};
+</script>
