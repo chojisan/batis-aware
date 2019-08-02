@@ -1,9 +1,9 @@
 <template>
   <base-nav
-    class="navbar-main navbar-top navbar-horizontal navbar-dark fixed-top"
-    containerClasses="px-4 container"
+    :class="{'navbar-transparent': scrollPosition < 1, 'bg-gradient-danger shadow-bottom': scrollPosition > 1}"
+    class="navbar-main navbar-top navbar-horizontal fixed-top py-2"
     type
-    effect="light"
+    effect="dark"
     expand
   >
     <router-link slot="brand" class="navbar-brand" to="/">
@@ -51,6 +51,19 @@ export default {
   name: "navigation",
   components: {
     CloseButton
+  },
+  data() {
+    return {
+      scrollPosition: null
+    };
+  },
+  methods: {
+    updateScroll() {
+      this.scrollPosition = window.scrollY;
+    }
+  },
+  mounted() {
+    window.addEventListener("scroll", this.updateScroll);
   }
 };
 </script>
